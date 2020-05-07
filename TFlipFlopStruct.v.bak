@@ -1,0 +1,8 @@
+module TFlipFlopStruct(T,clk,Q,NotQ);
+
+input T,clk;
+inout Q,NotQ;
+
+JKFlipFlopStruct(T,T,clk,Q,NotQ);
+
+endmodule 

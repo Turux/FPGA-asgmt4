@@ -1,0 +1,414 @@
+Version 7.1 Build 156 04/30/2007 SJ Full Version
+11
+2401
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+MyNot
+# storage
+db|lab4.(1).cnf
+db|lab4.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+MyNot.v
+35c09cf4818b6fb3c644cc851e84cc7f
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4|MyNot:comb_5
+JKFlipFlopStruct:comb_4|MyNot:comb_6
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|MyNot:comb_4
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Master|MyNot:comb_4
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Slave|MyNot:comb_4
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+MyAnd
+# storage
+db|lab4.(2).cnf
+db|lab4.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+MyAnd.v
+dcc742473b6f2caf9939ada58fdbfc5
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4|MyAnd:comb_4
+JKFlipFlopStruct:comb_4|MyAnd:comb_7
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Master|MyAnd:comb_5
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Master|MyAnd:comb_6
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Slave|MyAnd:comb_5
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Slave|MyAnd:comb_6
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+DLatchStruct
+# storage
+db|lab4.(0).cnf
+db|lab4.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+DLatchStruct.v
+50f0677456de9df76bfb97d87ef8ace6
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Master
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Slave
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+MyNor
+# storage
+db|lab4.(3).cnf
+db|lab4.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+MyNor.v
+c2a03ae846cb7af59758ce0272931
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Master|MyNor:comb_7
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Master|MyNor:comb_8
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Slave|MyNor:comb_7
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9|DLatchStruct:Slave|MyNor:comb_8
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+DFlipFlopStruct
+# storage
+db|lab4.(4).cnf
+db|lab4.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+DFlipFlopStruct.v
+ea9b17253270a0183bc59d389364ed41
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4|DFlipFlopStruct:comb_9
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+MyNand
+# storage
+db|lab4.(6).cnf
+db|lab4.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+MyNand.v
+35b9f6761ccdba29f521ace78e757154
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+RSFlipFlopStruct
+# storage
+db|lab4.(5).cnf
+db|lab4.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+RSFlipFlopStruct.v
+667458119b25e82f49f1f815b8fef
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+MyOr
+# storage
+db|lab4.(7).cnf
+db|lab4.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+MyOr.v
+eee5fb9deecbe5fedcc3b3e31edfa7
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4|MyOr:comb_8
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+JKFlipFlopStruct
+# storage
+db|lab4.(8).cnf
+db|lab4.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+JKFlipFlopStruct.v
+db37963b29a6746d0de3e76a98bd10
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+JKFlipFlopStruct:comb_4
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+Flip
+# storage
+db|lab4.(10).cnf
+db|lab4.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+Flip.v
+ca6eac115f6e26f7d3e13c608b71f87
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+TFlipFlopStruct
+# storage
+db|lab4.(9).cnf
+db|lab4.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+TFlipFlopStruct.v
+d79bd5e8e345c867e6d25dc7526299
+7
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+}
+# hierarchies {
+|
+}
+# lmf
+c:|program files|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,13 @@
+module DFlipFlopStruct (D,clk,Q,NotQ);
+
+input D,clk;
+output Q,NotQ;
+
+wire w0,w1,w2;
+
+MyNot(clk,w0);
+DLatchStruct Master(D,clk,w1);
+MyNot(clk,w2);
+DLatchStruct Slave(w1,w2,Q,NotQ);
+
+endmodule 

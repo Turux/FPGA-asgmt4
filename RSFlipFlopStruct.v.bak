@@ -1,0 +1,16 @@
+module RSFlipFlopStruct(S,R,clk,Q,NotQ);
+
+input S,R,clk;
+output Q,NotQ;
+
+wire w1,w2,w3,w4;
+
+MyNand(S,clk,w1);
+MyNand(clk,R,w2);
+MyNand(w1,w4,w3);
+MyNand(w3,w2,w4);
+
+assign Q = w3;
+assign NotQ = w4;
+
+endmodule 
